@@ -1,0 +1,7 @@
+.local
+node_modules
+config.local.json
+config.local.js
+src/config/*
+.idea
+.vscode
