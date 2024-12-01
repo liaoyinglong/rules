@@ -1,0 +1,25 @@
+rule-providers:
+  apple_icloud:
+    {
+      type: http,
+      behavior: domain,
+      url: "https://raw.v2raysocks.com/Loyalsoldier/clash-rules/release/icloud.txt",
+      path: ./rule-set/apple_icloud.yaml,
+      interval: 86400,
+    }
+  apple:
+    {
+      type: http,
+      behavior: domain,
+      url: "https://raw.v2raysocks.com/Loyalsoldier/clash-rules/release/apple.txt",
+      path: ./rule-set/apple.yaml,
+      interval: 86400,
+    }
+  google:
+    {
+      type: http,
+      behavior: domain,
+      url: "https://raw.v2raysocks.com/Loyalsoldier/clash-rules/release/google.txt",
+      path: ./rule-set/google.yaml,
+      interval: 86400,
+    }
